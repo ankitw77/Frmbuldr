@@ -1,0 +1,34 @@
+<div class='fb-edit-section-header'>Form Name</div>
+	
+<input type ='text' data-rv-input='model.<%= Formbuilder.options.mappings.FORM_NAME %>' />
+
+<div class='fb-edit-section-header'>Description</div>
+
+<textarea data-rv-input='model.<%= Formbuilder.options.mappings.FORM_DESCRIPTION %>' class="fb-description"></textarea>
+
+<div class='fb-edit-section-header'>Label Placement</div>
+
+<select data-rv-value="model.<%= Formbuilder.options.mappings.FORM_LABEL_PLACEMENT %>">
+	<option value="topAligned">Top Aligned</option>
+	<option value="leftAligned">Left Aligned</option>
+	<option value="rightAligned">Right Aligned</option>
+</select>
+
+
+<div class='fb-edit-section-header'>Confirmation Options</div>
+<div>
+	<div>
+		<input type="radio" value="Show Text" name="confirmation-options" data-rv-checked='model.<%= Formbuilder.options.mappings.FORM_CONFIRMATION_OPTION %>' />Show Text
+		<input type="radio" value="Redirect to Website" name="confirmation-options" data-rv-checked='model.<%= Formbuilder.options.mappings.FORM_CONFIRMATION_OPTION %>' />Redirect to Website
+	</div>
+	<br />
+	<div>
+		<textarea data-rv-input='model.<%= Formbuilder.options.mappings.FORM_CONFIRMATION_DESCRIPTION %>'
+	  placeholder='Add confirmation message here'></textarea>
+  	</div>
+  	<br />
+	<label>
+		<input type='checkbox' data-rv-checked='model.<%= Formbuilder.options.mappings.FORM_SEND_CONFIRMATION_EMAIL %>' />
+		Send Confirmation Email to User
+	</label>
+</div>

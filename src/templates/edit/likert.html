@@ -1,0 +1,21 @@
+<div class='fb-edit-section-header'>Statements</div>
+
+<div class='statement' data-rv-each-option='model.<%= Formbuilder.options.mappings.STATEMENTS %>'>
+  <input type="text" data-rv-input="option:label" class='option-label-input' />
+  <a class="js-add-statement <%= Formbuilder.options.BUTTON_CLASS %>" title="Add Option"><i class='fa fa-plus-circle'></i></a>
+  <a class="js-remove-statement <%= Formbuilder.options.BUTTON_CLASS %>" title="Remove statement"><i class='fa fa-minus-circle'></i></a>
+</div>
+
+<div class='fb-bottom-add'>
+  <a class="js-add-statement <%= Formbuilder.options.BUTTON_CLASS %>">Add Statement</a>
+</div>
+
+<div class='fb-edit-section-header'>Columns</div>
+
+<%= Formbuilder.templates['edit/options_generator']() %>
+
+<br />
+<label>
+    <input type='checkbox' data-rv-checked='model.<%= Formbuilder.options.mappings.INCLUDE_NA %>' />
+    Include Not Applicable
+ </label>

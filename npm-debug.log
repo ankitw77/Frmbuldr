@@ -1,0 +1,167 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'instal' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json formbuilder@0.2.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/ankit/Downloads/formbuilder-gh-pages3',
+6 verbose install   [ 'grunt',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-coffee',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-contrib-jst',
+6 verbose install     'grunt-contrib-stylus',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-release',
+6 verbose install     'grunt-karma',
+6 verbose install     'karma',
+6 verbose install     'mocha',
+6 verbose install     'karma-mocha',
+6 verbose install     'karma-safari-launcher',
+6 verbose install     'karma-chrome-launcher',
+6 verbose install     'karma-firefox-launcher',
+6 verbose install     'karma-phantomjs-launcher',
+6 verbose install     'karma-coffee-preprocessor' ] ]
+7 info preinstall formbuilder@0.2.1
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping grunt-contrib-coffee@~0.7.0 /home/ankit/Downloads/formbuilder-gh-pages3
+10 verbose already installed skipping grunt@~0.4.1 /home/ankit/Downloads/formbuilder-gh-pages3
+11 verbose already installed skipping grunt-contrib-concat@~0.3.0 /home/ankit/Downloads/formbuilder-gh-pages3
+12 verbose already installed skipping grunt-contrib-cssmin@~0.6.2 /home/ankit/Downloads/formbuilder-gh-pages3
+13 verbose already installed skipping grunt-contrib-jst@~0.5.1 /home/ankit/Downloads/formbuilder-gh-pages3
+14 verbose already installed skipping grunt-contrib-stylus@~0.9.0 /home/ankit/Downloads/formbuilder-gh-pages3
+15 verbose already installed skipping grunt-contrib-uglify@~0.2.5 /home/ankit/Downloads/formbuilder-gh-pages3
+16 verbose already installed skipping grunt-contrib-watch@~0.5.3 /home/ankit/Downloads/formbuilder-gh-pages3
+17 verbose already installed skipping grunt-contrib-clean@~0.4.0 /home/ankit/Downloads/formbuilder-gh-pages3
+18 verbose already installed skipping grunt-release@~0.6.0 /home/ankit/Downloads/formbuilder-gh-pages3
+19 verbose already installed skipping karma@~0.10.4 /home/ankit/Downloads/formbuilder-gh-pages3
+20 verbose already installed skipping grunt-karma@~0.6.2 /home/ankit/Downloads/formbuilder-gh-pages3
+21 verbose already installed skipping mocha@~1.13.0 /home/ankit/Downloads/formbuilder-gh-pages3
+22 verbose already installed skipping karma-mocha@~0.1.0 /home/ankit/Downloads/formbuilder-gh-pages3
+23 verbose already installed skipping karma-safari-launcher@~0.1.1 /home/ankit/Downloads/formbuilder-gh-pages3
+24 verbose already installed skipping karma-chrome-launcher@~0.1.0 /home/ankit/Downloads/formbuilder-gh-pages3
+25 verbose already installed skipping karma-firefox-launcher@~0.1.0 /home/ankit/Downloads/formbuilder-gh-pages3
+26 verbose already installed skipping karma-phantomjs-launcher@~0.1.0 /home/ankit/Downloads/formbuilder-gh-pages3
+27 verbose already installed skipping karma-coffee-preprocessor@~0.1.0 /home/ankit/Downloads/formbuilder-gh-pages3
+28 silly resolved []
+29 info build /home/ankit/Downloads/formbuilder-gh-pages3
+30 verbose linkStuff [ false, false, false, '/home/ankit/Downloads' ]
+31 info linkStuff formbuilder@0.2.1
+32 verbose linkBins formbuilder@0.2.1
+33 verbose linkMans formbuilder@0.2.1
+34 verbose rebuildBundles formbuilder@0.2.1
+35 verbose rebuildBundles [ '.bin',
+35 verbose rebuildBundles   'grunt',
+35 verbose rebuildBundles   'grunt-contrib-clean',
+35 verbose rebuildBundles   'grunt-contrib-coffee',
+35 verbose rebuildBundles   'grunt-contrib-concat',
+35 verbose rebuildBundles   'grunt-contrib-cssmin',
+35 verbose rebuildBundles   'grunt-contrib-jst',
+35 verbose rebuildBundles   'grunt-contrib-stylus',
+35 verbose rebuildBundles   'grunt-contrib-uglify',
+35 verbose rebuildBundles   'grunt-contrib-watch',
+35 verbose rebuildBundles   'grunt-karma',
+35 verbose rebuildBundles   'grunt-release',
+35 verbose rebuildBundles   'karma',
+35 verbose rebuildBundles   'karma-chrome-launcher',
+35 verbose rebuildBundles   'karma-coffee-preprocessor',
+35 verbose rebuildBundles   'karma-firefox-launcher',
+35 verbose rebuildBundles   'karma-html2js-preprocessor',
+35 verbose rebuildBundles   'karma-jasmine',
+35 verbose rebuildBundles   'karma-mocha',
+35 verbose rebuildBundles   'karma-phantomjs-launcher',
+35 verbose rebuildBundles   'karma-requirejs',
+35 verbose rebuildBundles   'karma-safari-launcher',
+35 verbose rebuildBundles   'karma-script-launcher',
+35 verbose rebuildBundles   'mocha',
+35 verbose rebuildBundles   'requirejs' ]
+36 verbose rebuild bundle /home/ankit/Downloads/formbuilder-gh-pages3/node_modules/karma-html2js-preprocessor
+37 info build /home/ankit/Downloads/formbuilder-gh-pages3/node_modules/karma-html2js-preprocessor
+38 info preinstall karma-html2js-preprocessor@0.1.0
+39 verbose linkStuff [ false,
+39 verbose linkStuff   false,
+39 verbose linkStuff   false,
+39 verbose linkStuff   '/home/ankit/Downloads/formbuilder-gh-pages3/node_modules' ]
+40 info linkStuff karma-html2js-preprocessor@0.1.0
+41 verbose linkBins karma-html2js-preprocessor@0.1.0
+42 verbose linkMans karma-html2js-preprocessor@0.1.0
+43 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
+44 info install karma-html2js-preprocessor@0.1.0
+45 info postinstall karma-html2js-preprocessor@0.1.0
+46 verbose rebuild bundle /home/ankit/Downloads/formbuilder-gh-pages3/node_modules/karma-jasmine
+47 info build /home/ankit/Downloads/formbuilder-gh-pages3/node_modules/karma-jasmine
+48 info preinstall karma-jasmine@0.1.5
+49 verbose linkStuff [ false,
+49 verbose linkStuff   false,
+49 verbose linkStuff   false,
+49 verbose linkStuff   '/home/ankit/Downloads/formbuilder-gh-pages3/node_modules' ]
+50 info linkStuff karma-jasmine@0.1.5
+51 verbose linkBins karma-jasmine@0.1.5
+52 verbose linkMans karma-jasmine@0.1.5
+53 verbose rebuildBundles karma-jasmine@0.1.5
+54 info install karma-jasmine@0.1.5
+55 info postinstall karma-jasmine@0.1.5
+56 verbose rebuild bundle /home/ankit/Downloads/formbuilder-gh-pages3/node_modules/karma-requirejs
+57 info build /home/ankit/Downloads/formbuilder-gh-pages3/node_modules/karma-requirejs
+58 info preinstall karma-requirejs@0.2.2
+59 verbose linkStuff [ false,
+59 verbose linkStuff   false,
+59 verbose linkStuff   false,
+59 verbose linkStuff   '/home/ankit/Downloads/formbuilder-gh-pages3/node_modules' ]
+60 info linkStuff karma-requirejs@0.2.2
+61 verbose linkBins karma-requirejs@0.2.2
+62 verbose linkMans karma-requirejs@0.2.2
+63 verbose rebuildBundles karma-requirejs@0.2.2
+64 info install karma-requirejs@0.2.2
+65 info postinstall karma-requirejs@0.2.2
+66 verbose rebuild bundle /home/ankit/Downloads/formbuilder-gh-pages3/node_modules/karma-script-launcher
+67 info build /home/ankit/Downloads/formbuilder-gh-pages3/node_modules/karma-script-launcher
+68 info preinstall karma-script-launcher@0.1.0
+69 verbose linkStuff [ false,
+69 verbose linkStuff   false,
+69 verbose linkStuff   false,
+69 verbose linkStuff   '/home/ankit/Downloads/formbuilder-gh-pages3/node_modules' ]
+70 info linkStuff karma-script-launcher@0.1.0
+71 verbose linkBins karma-script-launcher@0.1.0
+72 verbose linkMans karma-script-launcher@0.1.0
+73 verbose rebuildBundles karma-script-launcher@0.1.0
+74 info install karma-script-launcher@0.1.0
+75 info postinstall karma-script-launcher@0.1.0
+76 verbose rebuild bundle /home/ankit/Downloads/formbuilder-gh-pages3/node_modules/requirejs
+77 info build /home/ankit/Downloads/formbuilder-gh-pages3/node_modules/requirejs
+78 info preinstall requirejs@2.1.17
+79 verbose linkStuff [ false,
+79 verbose linkStuff   false,
+79 verbose linkStuff   false,
+79 verbose linkStuff   '/home/ankit/Downloads/formbuilder-gh-pages3/node_modules' ]
+80 info linkStuff requirejs@2.1.17
+81 verbose linkBins requirejs@2.1.17
+82 verbose link bins [ { 'r.js': './bin/r.js' },
+82 verbose link bins   '/home/ankit/Downloads/formbuilder-gh-pages3/node_modules/.bin',
+82 verbose link bins   false ]
+83 verbose linkMans requirejs@2.1.17
+84 verbose rebuildBundles requirejs@2.1.17
+85 info install requirejs@2.1.17
+86 info postinstall requirejs@2.1.17
+87 info install formbuilder@0.2.1
+88 info postinstall formbuilder@0.2.1
+89 info prepublish formbuilder@0.2.1
+90 error peerinvalid The package karma does not satisfy its siblings' peerDependencies requirements!
+90 error peerinvalid Peer grunt-karma@0.6.2 wants karma@~0.10.0
+90 error peerinvalid Peer karma-mocha@0.1.10 wants karma@>=0.12.8
+90 error peerinvalid Peer karma-safari-launcher@0.1.1 wants karma@>=0.9
+90 error peerinvalid Peer karma-phantomjs-launcher@0.1.4 wants karma@>=0.9
+90 error peerinvalid Peer karma-coffee-preprocessor@0.1.3 wants karma@>=0.9
+90 error peerinvalid Peer karma-html2js-preprocessor@0.1.0 wants karma@>=0.9
+90 error peerinvalid Peer karma-jasmine@0.1.5 wants karma@>=0.9
+90 error peerinvalid Peer karma-requirejs@0.2.2 wants karma@>=0.9
+90 error peerinvalid Peer karma-script-launcher@0.1.0 wants karma@>=0.9
+91 error System Linux 3.13.0-46-generic
+92 error command "/usr/bin/nodejs" "/usr/bin/npm" "instal"
+93 error cwd /home/ankit/Downloads/formbuilder-gh-pages3
+94 error node -v v0.10.25
+95 error npm -v 1.3.10
+96 error code EPEERINVALID
+97 verbose exit [ 1, true ]
